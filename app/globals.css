@@ -16,3 +16,12 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px s
 .field { display: flex; flex-direction: column; gap: .5rem; font-size: .75rem; color: #94a3b8; }
 .control { height: 2.5rem; border: 1px solid rgba(255,255,255,.1); border-radius: .25rem; background: #101113; padding: 0 .75rem; color: #e2e8f0; }
 .font-mono, pre, code { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace; }
+.theme-light { background: #f8fafc; color: #1e293b; }
+.theme-light aside, .theme-light header { background: #ffffff; border-color: #e2e8f0; }
+.theme-light h1, .theme-light h2, .theme-light h3, .theme-light .text-white { color: #0f172a; }
+.theme-light .text-slate-200, .theme-light .text-slate-300 { color: #334155; }
+.theme-light .text-slate-400, .theme-light .text-slate-500, .theme-light .text-slate-600 { color: #64748b; }
+.theme-light .border-white\/\[0\.08\], .theme-light .border-white\/10 { border-color: #e2e8f0; }
+.theme-light button:hover { background: #f1f5f9; }
+.theme-light [role="menu"] { background: #ffffff; }
+.theme-light .text-red-300 { color: #dc2626; }
